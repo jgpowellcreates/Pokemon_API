@@ -1,0 +1,57 @@
+/* 
+font-family: 'Lobster', cursive;
+font-family: 'Montserrat', sans-serif; 
+*/
+
+body {
+    background-image: url("pokemonAssets/oakLab.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 72px;
+    margin-top: .3em;;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: .3em;
+}
+
+h5 {
+    text-align: center;
+}
+
+.headerBox {
+    background-color: white;
+    width: fit-content;
+    padding: 0em 8em;
+ /*    margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto 1em auto;
+    border-radius: 3em;
+}
+
+.card {
+    margin: 1em;
+}
+
+/* STYLIZE THE INCOMING STARTER POKEMON INFORMATION */
+.starterBlock {
+    text-align: center;
+    background-color: white;
+    border-radius: 2em;
+}
+
+.starterName {
+    font-family: 'Lobster', cursive;
+    text-transform: capitalize;
+    font-size: 3em;
+}
+
+.starterPic {
+    background-color: white;
+}
